@@ -1,0 +1,43 @@
+.admin {
+  display: grid;
+  grid-template-columns: 200px auto;
+  padding-top: 110px;
+}
+
+.admin-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: max-content;
+  grid-gap: 5px;
+}
+
+.card {
+  display: block !important;
+  /* margin: 5px; */
+}
+
+.aside {
+  padding-top: 25px;
+}
+
+.aside-link {
+  display: block;
+  margin-top: 15px;
+}
+
+.name {
+  height: 2rem;
+}
+
+.species {
+  height: 2rem;
+  margin: 0;
+}
+
+.admin-calendar {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  /* width: 70%; */
+  justify-content: center;
+}
